@@ -1,0 +1,137 @@
+/* Theme Globals */
+/* Theme one */
+.theme-one {
+  background-color: var(--very-dark-desaturated-blue-toggle-keypad-bg);
+}
+
+.grid-numbers {
+  width: 90%;
+  max-width: 530px;
+  display: grid;
+  margin: auto;
+  padding: 25px 20px;
+  grid-template-areas:
+    "seven eight nine del"
+    "four five six plus"
+    "one two three min"
+    "point zero slash multi"
+    "reset reset equal equal";
+  grid-template-columns: repeat(4, minmax(40px, 100px));
+  grid-template-rows: repeat(5, minmax(40px, 70px));
+  gap: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.btn-theme-one {
+  background-color: var(--light-grayish-orange-key-bg);
+  box-shadow: 0 4px var(--grayish-orange-key-sh);
+  color: var(--very-dark-grayish-blue);
+}
+.btn-theme-one.del,
+.btn-theme-one.reset {
+  background-color: var(--desaturated-dark-blue-key-bg);
+  box-shadow: 0 4px var(--desaturated-dark-blue-key-sh);
+  color: var(--white);
+}
+.btn-theme-one.equal {
+  background-color: var(--red-bg-toggle);
+  box-shadow: 0 4px var(--dark-red-key-sh);
+  color:var(--white);
+}
+/* :active, :hover */
+.btn-theme-one:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 var(--grayish-orange-key-sh);
+}
+.btn-theme-one:hover {
+  background-color: var(--light-grayish-orange-key-bg-hover);
+}
+.btn-theme-one.del:active,
+.btn-theme-one.reset:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 var(--desaturated-dark-blue-key-sh);
+}
+.btn-theme-one.del:hover,
+.btn-theme-one.reset:hover {
+  background-color: var(--desaturated-dark-blue-key-bg-hover);
+}
+.btn-theme-one.equal:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 var(--dark-red-key-sh);
+}
+.btn-theme-one.equal:hover {
+  background-color: var(--red-bg-toggle-hover);
+}
+/* Numbers */
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.del {
+  grid-area: del;
+  font-size: 28px;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.plus {
+  grid-area: plus;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.min {
+  grid-area: min;
+}
+.point {
+  grid-area: point;
+}
+.zero {
+  grid-area: zero;
+}
+.slash {
+  grid-area: slash;
+}
+.multi {
+  grid-area: multi;
+}
+.reset {
+  grid-area: reset;
+  font-size: 28px;
+}
+.equal {
+  grid-area: equal;
+  font-size: 28px;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+  .grid-numbers {
+    gap:14px;
+  }
+  .del {
+    font-size: 20px;
+  }
+  .reset {
+    font-size: 20px;
+  }
+  .equal {
+    font-size: 20px;
+  }
+}

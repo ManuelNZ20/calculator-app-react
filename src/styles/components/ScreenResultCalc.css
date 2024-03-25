@@ -1,0 +1,23 @@
+.container-numbers {
+  background-color: var(--very-dark-desaturated-blue-screen);
+  width: 90%;
+  max-width: 530px;
+  margin:10px auto 20px;
+  height: 110px;
+  border-radius: 10px;
+  padding:14px;
+}
+.result-numbers {
+  color: var(--white);
+  font-size: 50px;
+  text-align: right;
+  padding: 20px;
+  overflow-y: auto;
+}
+.pre-result-numbers {
+  color: var(--light-grayish-yellow);
+  font-size: 20px;
+  text-align: right;
+  padding: 0px 20px;
+  font-weight: 100;
+}

@@ -1,0 +1,16 @@
+.btn-number {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 32px;
+  font-family: var(--font-family);
+  font-optical-sizing: var(--font-optical-sizing);
+  font-weight: 700;
+  font-style: normal;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+  .btn-number {
+    font-size: 25px;
+  }
+ }

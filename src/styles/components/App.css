@@ -1,0 +1,7 @@
+.container-app-calculator {
+  width: 100%;
+  height: 100vh;
+}
+.theme-one-container-calculator {
+  background-color: var(--very-dark-desaturated-blue-main-bg);
+}
