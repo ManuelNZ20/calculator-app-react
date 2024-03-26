@@ -1,97 +1,133 @@
 import '../styles/components/GridNumbers.css'
 import { ButtonCharacter } from './ButtonCharacter';
 
-export const GridNumbers = ({onAddNumbers}) => {
+export const GridNumbers = ({onAddNumbers,classComponents,theme}) => {
 
   return (
-    <div className="grid-numbers theme-one">
+    <div className={`grid-numbers ${classComponents['grid-numbers'].grid[theme]}`}>
       <ButtonCharacter
-        classButtons={'btn-theme-one seven'}
+        classComponents={classComponents}
+        classNameButton={`seven`}
+        theme={theme}
         character={'7'}
         onAddCharacter={() => onAddNumbers('7')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one eight'}
+        classComponents={classComponents}
+        classNameButton={`eight`}
+        theme={theme}
         character={'8'}
         onAddCharacter={() => onAddNumbers('8')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one nine'}
+        classComponents={classComponents}
+        classNameButton={`nine`}
+        theme={theme}
         character={'9'}
         onAddCharacter={() => onAddNumbers('9')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one del'}
+        classComponents={classComponents}
+        classNameButton={`del`}
+        theme={theme}
         character={'DEL'}
         onAddCharacter={() => onAddNumbers('del')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one four'}
+        classComponents={classComponents}
+        classNameButton={`four`}
+        theme={theme}
         character={'4'}
         onAddCharacter={() => onAddNumbers('4')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one five'}
+        classComponents={classComponents}
+        classNameButton={`five`}
+        theme={theme}
         character={'5'}
         onAddCharacter={() => onAddNumbers('5')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one six'}
+        classComponents={classComponents}
+        classNameButton={`six`}
+        theme={theme}
         character={'6'}
         onAddCharacter={() => onAddNumbers('6')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one plus'}
+        classComponents={classComponents}
+        classNameButton={`plus`}
+        theme={theme}
         character={'+'}
         onAddCharacter={() => onAddNumbers('+')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one one'}
+        classComponents={classComponents}
+        classNameButton={`one`}
+        theme={theme}
         character={'1'}
         onAddCharacter={() => onAddNumbers('1')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one two'}
+        classComponents={classComponents}
+        classNameButton={`two`}
+        theme={theme}
         character={'2'}
         onAddCharacter={() => onAddNumbers('2')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one three'}
+        classComponents={classComponents}
+        classNameButton={`three`}
+        theme={theme}
         character={'3'}
         onAddCharacter={() => onAddNumbers('3')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one min'}
+        classComponents={classComponents}
+        classNameButton={`min`}
+        theme={theme}
         character={'-'}
         onAddCharacter={() => onAddNumbers('-')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one point'}
+        classComponents={classComponents}
+        classNameButton={`point`}
+        theme={theme}
         character={'.'}
         onAddCharacter={() => onAddNumbers('.')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one zero'}
+        classComponents={classComponents}
+        classNameButton={`zero`}
+        theme={theme}
         character={'0'}
         onAddCharacter={() => onAddNumbers('0')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one slash'}
+        classComponents={classComponents}
+        classNameButton={`slash`}
+        theme={theme}
         character={'/'}
         onAddCharacter={() => onAddNumbers('/')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one multi'}
+        classComponents={classComponents}
+        classNameButton={`multi`}
+        theme={theme}
         character={'x'}
         onAddCharacter={() => onAddNumbers('x')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one reset'}
+        classComponents={classComponents}
+        classNameButton={`reset`}
+        theme={theme}
         character={'RESET'}
         onAddCharacter={() => onAddNumbers('reset')}
       />
       <ButtonCharacter
-        classButtons={'btn-theme-one equal'}
+        classComponents={classComponents}
+        classNameButton={`equal`}
+        theme={theme}
         character={'='}
         onAddCharacter={() => onAddNumbers('=')}
       />

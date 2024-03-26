@@ -1,2 +1,21 @@
 .header-calculator {
+  width: 90%;
+  max-width: 530px;
+  height: 95px;
+  margin: 0px auto 0px;
+  padding: 35px 14px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+
+.header-calculator-theme-one {
+  color: var(--white);
+}
+.header-calculator-theme-two {
+  color: var(--very-dark-grayish-yellow);
+}
+.header-calculator-theme-three {
+  color: var(--light-yellow);
 }

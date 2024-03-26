@@ -1,20 +1,15 @@
 import "../styles/components/HeaderCalculator.css";
+import { ToggleSwitchTheme } from "./ToggleSwitchTheme";
 
-export const HeaderCalculator = () => {
+export const HeaderCalculator = ({onChangeTheme,classComponents,theme}) => {
   return (
-    <header className="header-calculator">
-      <h4>calc</h4>
-      <div className="switcher-theme">
-        Theme
-        <div className="switcher">
-          <div className="numbers">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-          </div>
-          <div className="switch">⭕</div>
-        </div>
-      </div>
+    <header className={`header-calculator ${classComponents['header'][theme]}`}>
+      <h2>calc</h2>
+      <ToggleSwitchTheme
+        onChangeTheme={onChangeTheme}
+        classComponents={classComponents}
+        theme={theme}
+      />
     </header>
   );
 };

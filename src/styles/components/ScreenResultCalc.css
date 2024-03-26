@@ -1,23 +1,34 @@
 .container-numbers {
-  background-color: var(--very-dark-desaturated-blue-screen);
   width: 90%;
   max-width: 530px;
   margin:10px auto 20px;
   height: 110px;
   border-radius: 10px;
   padding:14px;
+  transition: background-color 0.5s;
+}
+.container-numbers-theme-one {
+  background-color: var(--very-dark-desaturated-blue-screen);
+}
+.container-numbers-theme-two {
+  background-color: var(--very-light-gray-screen-bg);
+}
+.container-numbers-theme-three {
+  background-color: var(--very-dark-violet-toggle-keypad-screen-bg);
 }
 .result-numbers {
-  color: var(--white);
   font-size: 50px;
   text-align: right;
   padding: 20px;
   overflow-y: auto;
+  transition: color 0.5s;
 }
-.pre-result-numbers {
-  color: var(--light-grayish-yellow);
-  font-size: 20px;
-  text-align: right;
-  padding: 0px 20px;
-  font-weight: 100;
+.result-numbers-theme-one {
+  color: var(--white);
+}
+.result-numbers-theme-two {
+  color: var(--very-dark-grayish-yellow);
+}
+.result-numbers-theme-three {
+  color: var(--light-yellow);
 }

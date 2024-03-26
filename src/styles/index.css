@@ -45,14 +45,16 @@
   --very-light-gray-screen-bg/* (screen background) */: hsl(0, 0%, 93%);
   /* #### Keys */
   --dark-moderate-cyan-key-bg/* (key background) */: hsl(185, 42%, 37%);
+  --dark-moderate-cyan-key-bg-hover/* (key background) */: hsl(185, 42%, 60%);
   --very-dark-cyan-key-sh/* (key shadow) */: hsl(185, 58%, 25%);
   --orange-key-toggle-bg/* (key background, toggle) */: hsl(25, 98%, 40%);
+  --orange-key-toggle-bg-hover/* (key background, toggle) */: hsl(25, 98%, 60%);
   --dark-orange-key-sh/* (key shadow) */: hsl(25, 99%, 27%);
   --light-grayish-yellow/* (key background) */: hsl(45, 7%, 89%);
+  --light-grayish-yellow-hover/* (key background) */: hsl(45, 7%, 100%);
   --dark-grayish-orange/* (key shadow) */: hsl(35, 11%, 61%);
   /* #### Text */
   --very-dark-grayish-yellow: hsl(60, 10%, 19%);
-  --white/* (text) */: hsl(0, 0%, 100%);
 
   /*
   ### Theme 3
@@ -66,11 +68,15 @@
   );
   /* #### Keys */
   --dark-violet-key-bg/* (key background) */: hsl(281, 89%, 26%);
+  --dark-violet-key-bg-hover/* (key background) */: hsl(281, 89%, 40%);
+
   --vivid-magenta-key-sh/* (key shadow) */: hsl(285, 91%, 52%);
 
   --pure-cyan-key-toggle-bg/* (key background, toggle)*/: hsl(176, 100%, 44%);
+  --pure-cyan-key-toggle-bg-hover/* (key background, toggle)*/: hsl(176, 100%, 64%);
   --soft-cyan-key-sh/* (key shadow) */: hsl(177, 92%, 70%);
   --very-dark-violet-key-bg/* (key background) */: hsl(268, 47%, 21%);
+  --very-dark-violet-key-bg-hover/* (:hover key background) */: hsl(268, 47%, 45%);
   --dark-magenta-key-sh/* (key shadow) */: hsl(290, 70%, 36%);
 
   /* #### Text */
